@@ -1,4 +1,4 @@
-![account_icon](https://github.com/user-attachments/assets/938ade98-db3a-4228-8eac-1cfb1a94a564)
+
 # BATIVITE
 A new Flutter project.
 
