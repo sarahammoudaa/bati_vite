@@ -2,45 +2,52 @@
 ![logooo](https://github.com/user-attachments/assets/233e9f45-da28-4381-9661-cdfb30afcf20 )
 
 # BATIVITE
-A new Flutter project.
+
+A Flutter-based app for ordering and delivering construction materials, enhanced with data-driven insights to optimize delivery performance and logistics.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application similar to uberEats.
+This project is a starting point for a Flutter application inspired by Uber Eats, tailored for the construction supply chain.
 
-# Delivery Time Analysis: Impact of External Factors
+---
 
-## Overview
-This project analyzes how external factors like weather, traffic, and port congestion affect delivery times. It aims to optimize delivery performance for **Bati Vite**, a delivery platform, by identifying key factors that cause delays and applying data-driven insights to improve operations.
+# Delivery Time Analysis: Impact of External Factors Using Data Science & AI
 
-## Dataset
-The dataset includes factors like:
-- weather_condition_severity
-- port_congestion_level
-- shipping_costs
-- supplier_reliability_score
-- lead_time_days
-- route_risk_level
-- driver_behavior_score
-- delivery_time_deviation (target variable)
+## Overview  
+This project combines app development with a data science module that analyzes how external factors (weather, traffic, port congestion, etc.) impact delivery times on the BatiVite platform. The goal is to leverage **machine learning** and **data analytics** to predict delays, identify bottlenecks, and improve operational efficiency through data-driven decisions.
 
-## Methodology
-1. **Data Preprocessing**: Clean and encode data.
-2. **Exploratory Data Analysis**: Visualize the impact of external factors on delivery time deviations.
-3. **Feature Engineering**: Create new features to improve model predictions.
-4. **Machine Learning**: Train a Random Forest model to classify delivery risks and predict delays.
-5. **Model Evaluation**: Evaluate using accuracy and other metrics.
+## Dataset  
+The dataset integrates various delivery-related features:  
+- `weather_condition_severity`  
+- `port_congestion_level`  
+- `shipping_costs`  
+- `supplier_reliability_score`  
+- `lead_time_days`  
+- `route_risk_level`  
+- `driver_behavior_score`  
+- `delivery_time_deviation` (target variable)  
 
-## Results
-- **Key Insights**: Weather, port congestion, and route risks were the most significant factors affecting delivery times.
-- **Model**: Random Forest showed strong accuracy in predicting high-risk deliveries and delays.
+## Methodology  
+1. **Data Preprocessing** — Cleaning and encoding raw data for model readiness.  
+2. **Exploratory Data Analysis (EDA)** — Visualizing patterns and correlations between factors and delivery delays.  
+3. **Feature Engineering** — Creating new variables to improve model prediction power.  
+4. **Machine Learning Model** — Training a **Random Forest classifier** to predict delivery delays and identify high-risk deliveries.  
+5. **Model Evaluation** — Assessing model performance with accuracy and other relevant metrics.  
 
-## Recommendations
-- **Real-time Monitoring**: Use real-time traffic and weather data to adjust delivery routes.
-- **Driver & Supplier Collaboration**: Improve communication to reduce delays.
+## Results  
+- Identified weather, port congestion, and route risk as major drivers of delivery delays.  
+- Developed an accurate predictive model for delivery risk classification to support proactive logistics management.
 
-## Technologies Used
-- Python
-- Pandas
-- Matplotlib
-- Scikit-learn
+## Recommendations  
+- Implement **real-time monitoring** systems to adapt routes dynamically based on weather and traffic data.  
+- Enhance **driver and supplier communication** to reduce delays and improve service reliability.  
+
+## Technologies Used  
+- Python (data processing and ML)  
+- Pandas (data manipulation)  
+- Matplotlib (visualizations)  
+- Scikit-learn (machine learning)  
+- Flutter (mobile app development)  
+
+---
+
